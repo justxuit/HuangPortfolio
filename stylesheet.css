@@ -1,0 +1,115 @@
+@font-face {
+	font-family: semi-coder;
+	src: url(semi-coder-regular.otf);
+}
+
+@font-face {
+	font-family: abel;
+	src: url(abel-regular.ttf);
+}
+
+body {
+	background-color: #223343;
+	color: #cccccc;
+	font-family: abel;
+}
+
+table {
+	margin: 0px auto;
+	margin-top: 13%;
+	padding: 10px;
+	table-layout: fixed;
+	width: 60%;
+	border: none;
+}
+
+th {
+	padding: 20px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	background-color: #323232; opacity: 0.9;
+	box-shadow: 5px 5px 2px #242424;
+}
+
+h2 {
+	color: #f4f4f4;
+	text-align: left;
+}
+
+h3 {
+	color: #f4f4f4;
+	text-align: left;
+}
+
+td {
+	font-size: 1.25em;
+	letter-spacing: 2px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: center;
+	background-color: #323232; opacity: 0.9;
+	border-radius: 5px;
+	box-shadow: 5px 5px 2px #242424;
+}
+
+div {
+	background-color: #4f5b66;
+}
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: #cccccc;
+}
+
+a:visited {
+	color: #cccccc;
+}
+
+a:hover {
+	color: #e37222;
+}
+
+blockquote {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-style: italic;
+	text-align: center;
+}
+
+span {
+	font-style: normal;
+}
+
+form {
+	margin-top: 2%;
+	width: 100%;
+	display: inline-block;
+}
+
+legend {
+	font-size: 1.5em;
+}
+
+label {
+	font-size: 1.25em;
+}
+
+input[type=submit] {
+	width: 10%;
+	background-color: #4f5b66;
+	color: #f4f4f4;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #373737;
+	font-family: semi-coder;
+	letter-spacing: 3px;
+	font-size: 1.0em;
+}
+
+input[type=submit]:hover {
+	background-color: #e37222;
+}
