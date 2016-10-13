@@ -2,11 +2,29 @@
 <html>
 
 	<head>
+		<script src="navscript.js"></script>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<title>About Me</title>
 	</head>
 
 	<body>
+
+		<!-- NAV OVERLAY -->
+		<span onclick="openNav()" class="navigation">&#9776;</span>
+
+		<div id="navbar" class="overlay">
+
+  		<a class="closebtn" onclick="closeNav()">&#9776;</a>
+
+  			<!-- overlay content -->
+  			<div class="overlay-navbar">
+    			<a href="index.html">Home</a>
+    			<a href="about.html">About</a>
+    			<a href="contact.html">Contact</a>
+  			</div>
+		</div>
+		<!-- END NAV OVERLAY -->
+
 	<h2>ABOUT ME</h2>
 	<h3>Who am I?</h3>
 		<p>
