@@ -26,15 +26,15 @@ body {
 }
 
 .overlay {
-    height: 0%;
-    width: 15%;
+    height: 100%;
+    width: 0%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111921; opacity: 0.7;
     transition: 0.3s;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .overlay-navbar {
@@ -61,7 +61,7 @@ body {
     background-color: #223343;
 }
 
-.overlay .closebtn {
+.overlay .closenav {
     position: absolute;
 	color: #f1f1f1;
 	font-family: semi-coder;
@@ -72,16 +72,18 @@ body {
 }
 /* END OVERLAY */
 
-table {
+/* INDEX.HTML */
+.h-table {
 	margin: 0px auto;
-	margin-top: 13%;
+	margin-top: 1%;
+	margin-bottom: 12%;
 	padding: 10px;
 	table-layout: fixed;
 	width: 60%;
 	border: none;
 }
 
-th {
+.h-th {
 	padding: 20px;
 	letter-spacing: 3px;
 	border-radius: 5px;
@@ -89,17 +91,7 @@ th {
 	box-shadow: 5px 5px 2px #242424;
 }
 
-h2 {
-	color: #f4f4f4;
-	text-align: left;
-}
-
-h3 {
-	color: #f4f4f4;
-	text-align: left;
-}
-
-td {
+.h-td {
 	font-size: 1.0em;
 	letter-spacing: 2px;
 	padding: 10px;
@@ -110,27 +102,50 @@ td {
 	box-shadow: 5px 5px 2px #242424;
 }
 
-div {
-	background-color: #4f5b66;
+
+/* ABOUT.HTML */
+.a-table {
+	margin: 0px auto;
+	padding: 4px;
+	table-layout: fixed;
+	width: 85%;
+	border: none;
 }
 
-a:link {
-	text-decoration: none;
-	font-weight: bold;
-	color: #cccccc;
+.whoami {
+	color: #060a0d;
 }
 
-a:visited {
-	color: #cccccc;
+
+.a-td1 {
+	font-size: 1.0em;
+	color: #060a0d;
+	letter-spacing: 2px;
+	padding: 5px;
+	vertical-align: top;
+	background-color: #7a848e;
+	border-radius: 2px;
 }
 
-a:hover {
-	color: #e37222;
+.a-td2 {
+	font-size: 1.0em;
+	letter-spacing: 2px;
+	padding: 5px;
+	vertical-align: top;
+	background-color: #384755;
+	border-radius: 2px;
 }
+
+
+/* CONTACT.HTML */
+
+.contactblurb {
+	margin-top: 0%;
+}
+
 
 blockquote {
 	display: block;
-	margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: 2em;
 	margin-right: 2em;
@@ -138,13 +153,11 @@ blockquote {
 	text-align: center;
 }
 
-span {
-	font-style: normal;
-}
-
 form {
+	margin-left: 15%;
 	margin-top: 2%;
-	width: 100%;
+	margin-bottom: 3%;
+	width: 70%;
 	display: inline-block;
 }
 
@@ -170,4 +183,37 @@ input[type=submit] {
 
 input[type=submit]:hover {
 	background-color: #e37222;
+}
+
+
+h2 {
+	color: #f4f4f4;
+	text-align: left;
+}
+
+h3 {
+	color: #f4f4f4;
+	text-align: left;
+}
+
+div {
+	background-color: #4f5b66;
+}
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: #cccccc;
+}
+
+a:visited {
+	color: #cccccc;
+}
+
+a:hover {
+	color: #e37222;
+}
+
+span {
+	font-style: normal;
 }

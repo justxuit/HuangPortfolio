@@ -10,11 +10,11 @@
 	<body>
 
 		<!-- NAV OVERLAY -->
-		<span onclick="openNav()" class="navigation">&#9776;</span>
+		<span onclick="openNav()" class="navigation">navigation</span>
 
 		<div id="navbar" class="overlay">
 
-  		<a class="closebtn" onclick="closeNav()">&#9776;</a>
+  		<a class="closenav" onclick="closeNav()">navigation</a>
 
   			<!-- overlay content -->
   			<div class="overlay-navbar">
@@ -25,25 +25,37 @@
 		</div>
 		<!-- END NAV OVERLAY -->
 
-	<h2>ABOUT ME</h2>
-	<h3>Who am I?</h3>
-		<p>
-			Hi there!
-		</p>
-		<p>
-			My name is Xuan (the "X" is pronounced like an "s-h"), and I am currently a front-end student at Grand Circus Detroit.
-		</p>
+	<table align="right" class="a-table">
+		<tr class="a-tr">
+			<th colspan="2" class="a-th"><h2>ABOUT ME</h2>
+			</th>
+		</tr>
+		<tr class="a-tr">
+			<td class="a-td1">
+				<h3 class="whoami">Who am I?</h3>
+				<p>Hi there!</p>
+				<p>My name is Xuan (sounds like "shoe-on," but say it fast). I am currently a front-end student at Grand Circus Detroit.</p>
+				<p>I have always strong interests in both design and psychology. I find the idea of "the user experience" in technology to be highly intriguing, and I hope to use front-end development as a vehicle for delivering great interface design.</p>
+			</td>
+			<td class="a-td2">
+				<h3>Stuff I Like:</h3>
+					<ol>
+						<li>corgis</li>
+						<li>art</li>
+						<li>design</li>
+					</ol>
+				<h3>Stuff I Dislike:</h3>
+					<ol>
+						<li>cheese</li>
+						<li>my irrational fear of insects</li>
+					</ol>
+			</td>					
+		</tr>
+		</table>		
 
-	<h3>Stuff I Like (in no particular order):</h3>
-		<ol>
-			<li>corgis</li>
-			<li>cake</li>
-			<li>art & design</li>
-				</ol>
-	<h3>Stuff I Dislike (in descending order):</h3>
-			<ol>
-			<li>cheese</li>
-			</ol>
+
+
+	
 	</body>
 
 </html>

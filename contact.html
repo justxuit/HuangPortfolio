@@ -10,11 +10,11 @@
 	<body>
 
 		<!-- NAV OVERLAY -->
-		<span onclick="openNav()" class="navigation">&#9776;</span>
+		<span onclick="openNav()" class="navigation">navigation</span>
 
 		<div id="navbar" class="overlay">
 
-  		<a class="closebtn" onclick="closeNav()">&#9776;</a>
+  		<a class="closenav" onclick="closeNav()">navigation</a>
 
   			<!-- overlay content -->
   			<div class="overlay-navbar">
@@ -24,16 +24,16 @@
   			</div>
 		</div>
 		<!-- END NAV OVERLAY -->
-		
-		<p>
+
+		<p class="contactblurb">
 			<center>Questions? Comments? Inquiries? Something else?<br/>
-			Please use the form below for all of the above!</center>
+			Use the contact form below for all of the above!</center>
 		</p>
-		<blockquote cite="https://en.wikipedia.org/wiki/Helen_Keller">
-			"Alone we can do so little, together we can do so much."
+		<blockquote cite="http://www.goodreads.com/quotes/9411-alone-we-can-do-so-little-together-we-can-do">
+			"Alone we can do so little; together we can do so much."
 			<span>- Helen Keller</span>
 		</blockquote>
-		<form action="http://www.example.com/contact.php">
+		<form>
 		<fieldset>
 			<legend><font color="#e37222"><strong>CONTACT ME</strong></font></legend>
 			<label>Name<br/>
@@ -43,7 +43,7 @@
 				<input type="text" name="email" size="70" maxlength="70"/>
 			</label><br/><br/>
 			<label>Message<br/>
-				<textarea name="message" cols="150" rows="10">Your message here.</textarea>
+				<textarea name="message" cols="100" rows="10">Your message here.</textarea>
 				<p>
 				<input type="submit" name="send" value="send"/>
 			</label>
