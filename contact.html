@@ -16,7 +16,7 @@
 
   		<a class="closenav" onclick="closeNav()">navigation</a>
 
-  			<!-- overlay content -->
+  			<!-- overlay menu -->
   			<div class="overlay-navbar">
     			<a href="index.html">Home</a>
     			<a href="about.html">About</a>
@@ -25,27 +25,37 @@
 		</div>
 		<!-- END NAV OVERLAY -->
 
-		<p class="contactblurb">
-			<center>Questions? Comments? Inquiries? Something else?<br/>
-			Use the contact form below for all of the above!</center>
-		</p>
+		<center><form name="capsform" method="post" class="capsform">
+			<input name="instring" type="text" value="Insert text here.">
+			<input type="button" name="makecaps" value="Once again, with more feeling!" onClick="makeUppercase();">
+			<input name="outstring" type="text" value="">
+		</form></center>
+
+		<br/>
+
 		<blockquote cite="http://www.goodreads.com/quotes/9411-alone-we-can-do-so-little-together-we-can-do">
 			"Alone we can do so little; together we can do so much."
 			<span>- Helen Keller</span>
 		</blockquote>
-		<form>
+		<p class="contactblurb">
+			<center>Questions? Comments? Inquiries? Something else?<br/>
+			Use the contact form below for all of the above!</center>
+		</p>
+
+		<br/>
+		<form name="contactme">
 		<fieldset>
 			<legend><font color="#e37222"><strong>CONTACT ME</strong></font></legend>
-			<label>Name<br/>
-				<input type="text" name="name" size="70" maxlength="70"/>
-			</label><br/><br/>
-			<label>Email<br/>
-				<input type="text" name="email" size="70" maxlength="70"/>
-			</label><br/><br/>
-			<label>Message<br/>
-				<textarea name="message" cols="100" rows="10">Your message here.</textarea>
-				<p>
-				<input type="submit" name="send" value="send"/>
+			<label>Name</label><br/>
+				<input type="text" name="name" size="50">
+			<br/><br/>
+			<label>Email</label><br/>
+				<input type="text" name="email" size="50">
+			<br/><br/>
+			<label>Message</label><br/>
+				<textarea name="message" cols="80" rows="5">Your message here.</textarea>
+			<br/>
+				<input type="submit" name="send" value="send">
 			</label>
 		</fieldset>
 		</form>	

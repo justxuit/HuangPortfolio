@@ -139,8 +139,17 @@ body {
 
 /* CONTACT.HTML */
 
+.capsform {
+	width: 985px;
+	margin: 0 auto;
+}
+
 .contactblurb {
 	margin-top: 0%;
+}
+
+.contactme {
+	text-align: center;
 }
 
 
@@ -169,8 +178,21 @@ label {
 	font-size: 1.25em;
 }
 
+input[type=button] {
+	background-color: #4f5b66;
+	color: #f4f4f4;
+	border-style: none;
+	border-color: #373737;
+	font-family: semi-coder;
+	font-size: 0.8em;
+}
+
+input[type=button]:hover {
+	background-color: #e37222;
+}
+
 input[type=submit] {
-	width: 10%;
+	width: 8%;
 	background-color: #4f5b66;
 	color: #f4f4f4;
 	border-style: solid;
@@ -178,7 +200,7 @@ input[type=submit] {
 	border-color: #373737;
 	font-family: semi-coder;
 	letter-spacing: 3px;
-	font-size: 1.0em;
+	font-size: 0.8em;
 }
 
 input[type=submit]:hover {
